@@ -10,7 +10,7 @@ game: linux
 
 #main game
 linux: obj $(OBJECTS) $(LEVELS) $(P_NAME)
-	$(CC) $(CFLAGS) $(LDFLAGS) $(OBJECTS) $(LEVELS) -o $(P_NAME)/$(P_NAME)
+	$(CC) $(CFLAGS) $(OBJECTS) $(LDFLAGS) $(LEVELS) -o $(P_NAME)/$(P_NAME)
 
 #objects
 obj/main.o: main.c
